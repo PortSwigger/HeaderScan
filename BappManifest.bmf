@@ -1,0 +1,11 @@
+Uuid: 35643619955941d992d20dc51452a139
+ExtensionType: 1
+Name: Header Scan
+ScreenVersion: 0.1
+SerialVersion: 1
+MinPlatformVersion: 0
+ProOnly: True
+Author: Piotrek Duszyński
+ShortDescription: Automatically generates extra scanning tasks for active scan requests.
+EntryPoint: build/libs/header-scan-all.jar
+BuildCommand: gradle -PburpJar=$BURP_JAR fatJar
